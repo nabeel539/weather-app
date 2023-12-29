@@ -93,7 +93,7 @@ const WeatherApp = () => {
       </form>
       {weatherData && (
         <div className="flex flex-col gap-10 ">
-          <div className="bg-white/30 bg-gradient-to-r from-pink-300/3 via-purple-300/3 to-indigo-400/3 border text-black  max-sm:w-[340px] max-2xl:w-[400px] rounded-3xl p-4 border-white/40 shadow-lg">
+          <div className="bg-white/30 bg-gradient-to-r from-pink-300/3 via-purple-300/3 to-indigo-400/3 border text-black  max-sm:w-[340px] max-2xl:w-[400px] w-[400px] rounded-3xl p-4 border-white/40 shadow-lg">
             <div className="flex justify-between items-center">
               <div className="flex items-center gap-1 text-[18px] font-medium ">
                 <div className="text-2xl">
